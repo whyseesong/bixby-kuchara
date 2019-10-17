@@ -1,0 +1,5 @@
+train (t-525ez55tpd5ugk1lpqk4ixm1l) {
+  utterance ("[g:FindWeekday] (언제)[v:Actor]야?")
+  plan (Y2BhECzLLNMrycxN1XNJLEkNATIYpLJLkzMSixL1kvJz8xJz9Nwy81LCU1OzUxIrGUTQ5ByTS/KLGKQxDHGtKChKLS7OzM9jYGZgZGACkgxAGgQhgAksygAA)
+  last-modified (1571298776860)
+}

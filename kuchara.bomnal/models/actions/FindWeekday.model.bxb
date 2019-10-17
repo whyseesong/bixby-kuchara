@@ -1,0 +1,20 @@
+action (FindWeekday) {
+  description (__DESCRIPTION__)
+  type(Search)
+  collect {
+    input (dateTimeExpression) {
+      type (MakeInitDateTime)
+      min (Required) max (One)
+      default-init {
+        intent {
+          goal: initDate
+        }
+      }
+    }
+    input (actor) {
+      type(Actor)
+      min (Required) max (One)
+    }
+  }
+  output (time.DateTime)
+}

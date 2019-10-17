@@ -1,0 +1,4 @@
+structure (MyDateTime) {
+  description (날짜, 시간 정보를 입력받아 없는 부분 default-init 만들기)
+  role-of (time.DateTimeExpression)
+}

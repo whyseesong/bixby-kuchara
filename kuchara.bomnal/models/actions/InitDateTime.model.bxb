@@ -1,0 +1,6 @@
+action (InitDateTime) {
+  description (__DESCRIPTION__)
+  type(Search)
+  
+  output (time.Date)
+}

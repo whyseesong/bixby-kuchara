@@ -1,0 +1,11 @@
+action (MakeInitDateTime) {
+  type(Search)
+  description (__DESCRIPTION__)
+  collect {
+    input (dateTimeExpression) {
+      type (time.DateTimeExpression)
+      min (Required) max (One)
+    }
+  }
+  output (time.DateTimeExpression)
+}
